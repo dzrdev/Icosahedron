@@ -1,5 +1,3 @@
-console.log('load test');
-
 function degToRad(degree) {
     return degree * Math.PI / 180;
 }
