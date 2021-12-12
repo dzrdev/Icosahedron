@@ -31,7 +31,7 @@ class Model {
                 Math.sin(this.rotateX + object.angle2) * object.r2 * this.scale + canvas.width / 2 + this.x,
                 (Math.cos(- this.rotateY) * object.y2 + Math.cos(this.rotateX + object.angle2) * Math.sin(- this.rotateY) * object.r2) * - this.scale + canvas.height / 2 - this.y
             );
-            let z = Math.cos(this.rotateY) * Math.cos(this.rotateX + object.angle) * -object.r;
+            //let z = Math.cos(this.rotateY) * Math.cos(this.rotateX + object.angle) * -object.r;
         }
     }
 }
